@@ -19,7 +19,7 @@ public class GetArrayMean {
         Scanner input = new Scanner(System.in);
         int n = 0;
 
-        //para malaman kung yung magiging size ng array
+        //para malaman yung magiging size ng array
         while(true) {
             System.out.print("Enter the number of elements: ");
             try {
