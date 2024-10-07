@@ -46,7 +46,7 @@ public class Car {
             default:
                 sizeDescription = "unknown";
         }
-        return String.format("Car (" + color + ") - P" + price + " - " + sizeDescription);
+        return String.format("Car (%s) - P%.2f - %s", color, price, sizeDescription);
     }
 
     public static void main(String[] args) {
