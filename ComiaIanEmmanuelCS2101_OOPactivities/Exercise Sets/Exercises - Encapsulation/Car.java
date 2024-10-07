@@ -50,26 +50,32 @@ public class Car {
     }
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        // Scanner input = new Scanner(System.in);
         
-        System.out.print("Enter the car color: ");
-        String color = input.nextLine();
+        // System.out.print("Enter the car color: ");
+        // String color = input.nextLine();
 
-        System.out.print("Enter the car price: ");
-        double price = input.nextDouble();
+        // System.out.print("Enter the car price: ");
+        // double price = input.nextDouble();
 
-        System.out.print("Enter the car size(s, m or l): ");
-        char size = input.next().charAt(0);
+        // System.out.print("Enter the car size(s, m or l): ");
+        // char size = input.next().charAt(0);
 
-        Car useCar = new Car (color, price, size);
+        // Car useCar = new Car (color, price, size);
 
-        System.out.println("\nCar Details:");
-        System.out.println("Color: " + useCar.getColor());
-        System.out.println("Price: P" + String.format("%.2f", useCar.getPrice()));
-        System.out.println("Size: " + useCar.getSize());
+        // System.out.println("\nCar Details:");
+        // System.out.println("Color: " + useCar.getColor());
+        // System.out.println("Price: P" + String.format("%.2f", useCar.getPrice()));
+        // System.out.println("Size: " + useCar.getSize());
 
-        System.out.println("\nFormatted output: " + useCar.toString());
+        // System.out.println("\nFormatted output: " + useCar.toString());
 
-        input.close();
+        // input.close();
+
+        Car car1 = new Car("red", 19999.85, 'm');
+        System.out.println(car1);  // Output: Car (red) - P19999.85 - medium
+
+        Car car2 = new Car("blue", 50000.00, 'l');
+        System.out.println(car2);  // Output: Car (blue) - P50000.00 - large
     }
 }
