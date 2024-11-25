@@ -1,7 +1,6 @@
 # ComiaIanEmmanuelCS2101_OOPactivities
 
-Welcome to the **CS2101 Object-Oriented Programming (OOP)** Activities Repository!  
-This repository contains exercises, encapsulation activities, and laboratory activities to enhance your understanding of OOP concepts. Dive into the world of encapsulation, polymorphism, and inheritance while solving real-world problems.
+This repository contains exercises, encapsulation activities, and laboratory activities on CS 211 - Object-Oriented Programming.
 
 ---
 
