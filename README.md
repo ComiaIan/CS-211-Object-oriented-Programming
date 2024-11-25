@@ -9,7 +9,7 @@ This repository contains exercises, encapsulation activities, and laboratory act
 ### ✅ **Exercise Sets**
 - **Exercise Set 01**
   - `Escseq.java`: Program to practice escape sequences.
-  - `Tempconvert.java`: A temperature converter application.
+  - `Tempconvert.java`: A temperature converter.
   - `Welcome.java`: A simple program to display a welcome message.
 
 ---
@@ -24,7 +24,7 @@ This repository contains exercises, encapsulation activities, and laboratory act
 #### 🏷 **Laboratory Activity 1 - 02/09/2024**
 - **Files**:
   - `GettingGreater.java`: Program to determine the greater number.
-  - `GettingInputs.java`: Handles multiple user inputs efficiently.
+  - `GettingInputs.java`: Handles multiple user inputs.
 - **Outputs**:
   - `GettingGreater_output.png`: Screenshot of program output.
   - `GettingInputs_output.png`: Screenshot of program output.
